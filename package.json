@@ -1,0 +1,29 @@
+{
+    "name": "gda-user",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "test",
+        "wdio": "wdio run wdio.conf.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "(https://github.com/ayawpk/webdriverio-cucumber.git)"
+    },
+    "keywords": [
+        "webdriverio",
+        "javascript",
+        "cucumber"
+    ],
+    "author": "ayawpk",
+    "license": "ISC",
+    "devDependencies": {
+        "@wdio/cli": "^7.20.9",
+        "@wdio/cucumber-framework": "^7.20.8",
+        "@wdio/local-runner": "^7.20.9",
+        "@wdio/spec-reporter": "^7.20.8",
+        "chromedriver": "^104.0.0",
+        "wdio-chromedriver-service": "^7.3.2"
+    }
+}
